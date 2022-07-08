@@ -2,7 +2,7 @@ version: '3.5'
 
 services:
   centos:
-    image: centos
+    image: alpine
     volumes:
       - ./zombie:/zombie
       - ./init:/init
